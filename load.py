@@ -98,7 +98,7 @@ def animate_video(video_path, new_width=120):
 
 # TS: Hauptprogramm – lädt direkt das Medium von der URL, spielt es ab und beendet sich dann.
 def main():
-    url = "https://raw.githubusercontent.com/titanxrio/krypta1/refs/heads/main/hacker-gif-8.gif"
+    url = "https://raw.githubusercontent.com/titanxrio/krypta1/refs/heads/main/IMG_9105.gif"
     try:
         response = requests.get(url)
         response.raise_for_status()
